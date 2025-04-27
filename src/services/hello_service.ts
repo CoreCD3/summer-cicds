@@ -5,6 +5,6 @@ export interface IHelloService {
 
 export class HelloService implements IHelloService {
     sayHello() {
-        return "Hello, world! from servicex"
+        return "Hello, world! from service"
     }
 }
